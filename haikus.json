@@ -1,5 +1,15 @@
 [
     {
+        "id": "1",
+        "title": "First Haiku",
+        "text": "An old silent pond..."
+    },
+    {
+        "id": "2",
+        "title": "Second Haiku",
+        "text": "Autumn moonlight—"
+    },
+    {
         "text": "rain in seattle,\ndon't forget an umbrella,\nor it will be gloom!",
         "image": "puddle_jumper_octodex.jpg"
     },

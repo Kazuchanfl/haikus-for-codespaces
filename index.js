@@ -11,4 +11,11 @@ app.get('/', (req, res) => {
   res.render('index', {haikus: haikus});
 });
 
+app.get('/haikus/:id', (req, res) => {
+  const id = req.params.id;
+  const haiku = haikus.find(h => h.id === id);
+  res.render('haiku', {haiku: haiku});
+}
+);
+
 app.listen(port);
